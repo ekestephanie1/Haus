@@ -1,0 +1,133 @@
+*,
+html,
+body {
+  font-family: "poppins";
+  padding: 0;
+  margin: 0;
+}
+.over-lay {
+  background-image: url("/images/Background\ Image.png");
+  height: 95vh;
+}
+.nav-bar {
+  display: flex;
+  color: #ffffff;
+}
+
+ul {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+  margin-left: 500px;
+  margin-top: 100px;
+}
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+#earth {
+  height: 20px;
+}
+#logo {
+  margin-left: 250px;
+  margin-top: 80px;
+}
+a {
+  text-decoration: none;
+  position: relative;
+}
+
+.home-link {
+  position: relative;
+}
+
+a.home-link:hover {
+  color: rgba(255, 255, 255, 1);
+}
+a.home-link::after {
+  content: "";
+  height: 5px;
+  width: 100%;
+  background-color: rgba(255, 204, 42, 1);
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+}
+a.home-link:hover::after {
+  transform: scaleX(1);
+}
+button {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 1);
+  color: #ffffff;
+  cursor: pointer;
+  padding-top: 8px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 8px;
+}
+
+button:hover {
+  background-color: rgba(255, 204, 42, 1);
+  border: none;
+  border-radius: 3px;
+}
+
+.header-section {
+  color: #ffffff;
+  font-size: 55px;
+  margin-top: 180px;
+  margin-left: 250px;
+}
+.switch {
+  color: rgba(255, 204, 42, 1);
+}
+.para {
+  margin-left: 250px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#learn-more {
+  margin-left: 250px;
+}
+
+.animated-text {
+  color: #ffffff;
+  font-size: 55px;
+  margin-top: 180px;
+  margin-left: 250px;
+  font-weight: bold;
+}
+.animated-text span {
+  position: relative;
+}
+.animated-text span::before {
+  content: "";
+  color: rgba(255, 204, 42, 1);
+}
+.animated-text span::after {
+  content: "";
+  color: rgba(255, 204, 42, 1);
+  animation: words 12s infinite
+}
+@keyframes words {
+  0%,
+  15% {
+    content: "Project Supervision";
+  }
+16%,30% {
+content: "Facility Management";
+}
+31%,50% {
+  content: "Project Management";
+}
+51%, 70% {
+  content: "Consultation";
+}
+71%,80%{
+  content: "Personnel Management";
+}
+81%, 100%{
+  content: "B&M Analysis";
+}
+}
