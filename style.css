@@ -18,7 +18,7 @@ ul {
   display: flex;
   gap: 60px;
   list-style: none;
-  margin-left: 500px;
+  margin-left: 100px;
   margin-top: 100px;
 }
 a {
@@ -29,7 +29,7 @@ a {
   height: 20px;
 }
 #logo {
-  margin-left: 250px;
+  margin-left: 150px;
   margin-top: 80px;
 }
 a {
@@ -77,25 +77,25 @@ button:hover {
   color: #ffffff;
   font-size: 55px;
   margin-top: 180px;
-  margin-left: 250px;
+  margin-left: 150px;
 }
 .switch {
   color: rgba(255, 204, 42, 1);
 }
 .para {
-  margin-left: 250px;
+  margin-left: 150px;
   color: rgba(255, 255, 255, 1);
 }
 
 #learn-more {
-  margin-left: 250px;
+  margin-left: 150px;
 }
 
 .animated-text {
   color: #ffffff;
   font-size: 55px;
   margin-top: 180px;
-  margin-left: 250px;
+  margin-left: 150px;
   font-weight: bold;
 }
 .animated-text span {
